@@ -1,0 +1,20 @@
+{
+  "name": "vagrant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.1",
+    "csv-parse": "^1.1.7",
+    "elasticsearch": "^11.0.1",
+    "event-stream": "^3.3.4",
+    "kue": "^0.11.1",
+    "stream": "0.0.2",
+    "util": "^0.10.3"
+  }
+}

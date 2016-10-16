@@ -1,0 +1,12 @@
+---
+- hosts: default
+  become: yes
+  vars:
+
+    nodejs_version: "4.x"
+
+  roles:
+    - geerlingguy.nodejs
+    - geerlingguy.elasticsearch
+    - geerlingguy.redis
+    
